@@ -9,7 +9,7 @@ public class PowerOf2 {
 
 	    System.out.println("Enter a number (0-31) ");
 
-	    do {
+	    do { 
 	    	num = sc.nextShort();
 	      if (num > 31 || num < 0) {
 	        System.out.println("Thats not valid. Enter again a number between (0-31)");
